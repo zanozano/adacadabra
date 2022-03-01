@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <style>
+    body {
+      align-items: center;
+      background-image: url("images/fondo.jpg");
+      background-position: top;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 70vh;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .galeria {
+      display: flex;
+      margin: auto;
+      width: 75%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      text-shadow: 1px 1px 7px black;
+    }
+
+    .sombrero {
+      opacity: 0.5;
+    }
+
+    .sombrero:hover {
+      opacity: 1;
+    }
+  </style>
+  <!-- Galeria -->
+  <h1> &#128048 Abracadabra &#128048</h1>
+  <div class="galeria">
+    <div class="sombrero">
+      <a target="_blank" href="/abracadabra/conejo/1">
+        <img src="images/sombrero.png" alt="Cinque Terre" />
+      </a>
+      <h1 onclick="selectHat(1)">1</h1>
+    </div>
+
+    <div class="sombrero">
+      <a target="_blank" href="/abracadabra/conejo/2">
+        <img src="images/sombrero.png" alt="Forest" />
+      </a>
+      <h1 onclick="selectHat(2)">2</h1>
+    </div>
+
+    <div class="sombrero">
+      <a target="_blank" href="/abracadabra/conejo/3">
+        <img src="images/sombrero.png" alt="Northern Lights" />
+      </a>
+      <h1 onclick="selectHat(3)">3</h1>
+    </div>
+
+    <div class="sombrero">
+      <a target="_blank" href="/abracadabra/conejo/4">
+        <img src="images/sombrero.png" alt="Mountains" />
+      </a>
+      <h1 onclick="selectHat(4)">4</h1>
+    </div>
+  </div>
+</body>
+
+</html>
